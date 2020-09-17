@@ -19,7 +19,13 @@
 		  }
 		}
 	  });
-	
+    const {data: branches2} = await client.repos.getBranches({
+      owner: 'gr2m',
+      repo: 'sandbox',
+      headers: {
+        'If-None-Match': ''
+      }
+    })
     // Closes responsive menu when a scroll trigger link is clicked
 	  $('.js-scroll-trigger').click(function() {
 		$('.navbar-collapse').collapse('hide');
