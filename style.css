@@ -29,13 +29,35 @@
     src: url(fonts/SpaceGrotesk-Bold.otf);
   }
 
+/*------------------------------------------------------------------
+    COLORS
+-------------------------------------------------------------------*/
+
+.beige{
+    color:#e6eed6ff;
+}
+.springbud{
+    color:#D5E1A3;
+}
+.space-cadet{ 
+    color: #2D3142;
+}
+
+.fern-green{ 
+    color: #588157;
+}
+.black-chocolate{
+    color: #090c02ff;
+}
+
+
 
 /*------------------------------------------------------------------
     SKELETON
 -------------------------------------------------------------------*/
 
 body {
-    color: #999999;
+    color: #090c02ff; /* changed body color*/
     font-size: 14px;
     font-family: grotesk, monospace;
     line-height: 1.80857;
@@ -466,7 +488,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: black;
+    background-color: #2D3142;
 }
 
 #clouds{
@@ -505,15 +527,15 @@ xclip
 }
 
 .section.wb {
-    background-color: #ffffff;
+    background-color: #e6eed6ff;
 }
 
 .section.lb {
-    background-color: #f2f3f5;
+    background-color: #FDFDFD;
 }
 
 .section.db {
-    background-color: #111111;
+    background-color: #090c02ff;
 }
 
 .section.color1 {
@@ -673,21 +695,24 @@ xclip
 
 .services-inner-box{
 	padding: 15px;
-	background: #ffffff;
-	margin-bottom: 30px;
+	background: #3c3d41;
+    margin-bottom: 30px;
+    border-radius: 15px;
 }
 .ser-icon{
 	width: 90px;
 	height: 90px;
-	text-align: center;
+    text-align: center;
+    color: #FFF;
 	line-height: 90px;
 }
 .ser-icon i{
 	font-size: 50px;
-	color: #333333;
+	color: #FFF;
 }
 .services-inner-box h2{
-	font-size: 22px;
+    font-size: 22px;
+    color: #FFF;
 	font-weight: 600;
 }
 
@@ -2415,7 +2440,7 @@ select.mobile-device {
     right: 0;
     bottom: 0;
     left: 0;
-    background: #333333;
+    background: #090c02ff;
     z-index: 11000;
     position: fixed;
     display: block
