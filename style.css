@@ -2292,11 +2292,16 @@ select.mobile-device {
     color: #bcbcbc !important;
 }
 
+.fontsize{
+    font-size: large;
+}
+
 .contact_form {
     border: 1px solid #ededed;
+    display: flex;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
     background-color: #f2f3f5;
-    padding: 40px 30px;
+    padding: 50px 45px;
 }
 
 .contact_form .form-control {
